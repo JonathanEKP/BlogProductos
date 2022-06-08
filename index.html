@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,12 +34,6 @@
                             <a href="#" class="nav-link text-dark fs-5">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-dark fs-5">Noticias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-dark fs-5">Promociones</a>
-                        </li>
-                        <li class="nav-item">
                             <a href="#" class="nav-link text-dark fs-5">Contactanos</a>
                         </li>
                     </ul>
@@ -49,36 +43,70 @@
             </div>
         </nav>
 
-    <!--Carrusel de imagenes-->
-        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-                <img src="imagenes/wpp1.jpg" class="d-block w-100" alt="">
-            </div>
-            
-    
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="imagenes/wpp2.jpg" class="d-block w-100" alt="...">
-            </div>
-    
-
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="imagenes/wpp3.jpg" class="d-block w-100" alt="...">
-            </div>
-    
-    
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-            </button>
-        </div>    
+        <!--FOTO DE PORTADA-->
+        <section id="hero">
+            <h1>Los mejores SmartPhone <br> los encontrás aquí</h1>
+        </section>
         
+        <!--INFORMACION SOBRE EL SITIO-->
+        <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+            <h1 class="p-3 fs-2 border-top border-3">Un blog donde siempre estaras informado sobre los mejores <span class="text-morado"> SmartPhone</span></h1>
+             <p class="p-3  fs-4">
+                 <span class="text-morado">BlogTech</span> es la mejor pagina web para enterarte de los mejores precios en el mercado.        
+             </p>   
+        </section>
+        
+       <!--CONOCE NUESTRO SITIO-->
+        <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+            <h1 class="p-3 fs-2 ">Conoce más sobre nosotros:</h1>
+        </section>
 
+        <section class="w-100">
+            <div class="row w-50 mx-auto" id="conocenos-fila">
+                <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center my-5 descripcion-img box-shadow">
+                        <img src="imagenes/nosotros.png" alt="Conocenos" width="180" height="160">
+
+                        <div>
+                            <h3 class="fs-5 mt-4 px-4 pb-1 text-center text-decoration-none text-uppercase">Conocenos</h3>
+                            <p class="px-5">Aquí encontrás información sobre nosotros como:  nuestros valores, misión y visión.</p>
+                        </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center my-5 descripcion-img box-shadow">
+                    <img src="imagenes/productos.png" alt="Productos" width="180" height="160">
+                    
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4 pb-1 text-center text-decoration-none text-uppercase">Productos</h3>
+                        <p class="px-5">Aquí podrás encontrar los mejores productos  buscados  por nuestro equipo en el mercado  para poder traerte el mejor precio.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center my-5 descripcion-img box-shadow">
+                    <img src="imagenes/contactanos.png" alt="Productos" width="180" height="160">
+                    
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4 pb-1 text-center text-decoration-none text-uppercase">Contactanos</h3>
+                        <p class="px-5">En esta seccion podrás  llenar un formulario  de contacto  con el motivo de tu  mensaje el cual  le daremos mucha  importancia  y trataremos de responder  lo mas breve posible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section  class="border-bottom border-secondary border-2">
+            <div >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#413F42" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+            <p class="fs-5 px-3  pt-3">BlogTech. &copy; Todos Los Derechos Reservados 2022</p>
+            <div id="iconos" >
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>  
+            </div>
+        </footer>
 
         
 
