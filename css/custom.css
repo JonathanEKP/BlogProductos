@@ -1,3 +1,5 @@
+
+
 html{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -15,11 +17,32 @@ html{
     color: #4C3575;
 }
 
-.carousel-inner {
-    max-height:39rem !important;
+.hero-h1{
+    font-size: 5rem;
 }
 
+
 #hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 95vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("../imagenes/wpp4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+#hero2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,11 +55,13 @@ html{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),
-    url("../imagenes/wpp4.jpg");
+    url("../imagenes/wpp2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+
+
 
 .box-shadow{
     border-radius: 8px;
@@ -57,6 +82,26 @@ footer p{
     color:#f3f3f3;
 }
 
+.text-inf{
+    color: #7D7D7D;
+}
+
+.card2{
+    margin-left: 25px;
+}
+
+#cards h3{
+    font-size: 3vh;
+}
+
+#cards p{
+    font-size: 3vh;
+}
+
+
+
+
+
 
 
 /*PANTALLAS ANCHAS*/
@@ -65,8 +110,23 @@ footer p{
         width:90% !important;
         margin:auto;
     }
-  
-   
+
+    .hero-h1{
+        font-size: 3rem;
+    }
+
+    #conocenos-fila {
+        width:45% !important;
+    }
+
+    .descripcion-img{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    
+    
 }
 
 /* PANTALLAS SM*/
@@ -75,6 +135,37 @@ footer p{
     #intro{
         width:90% !important;
         margin:auto;
+    }
+
+    .hero-h1{
+        font-size: 2.5rem;
+    }
+
+    #conocenos-fila {
+        width:45% !important;
+    }
+
+    .descripcion-img{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    .card2{
+        margin-left: 45px;
+    }
+
+    #cards h3{
+        font-size: 1.5vh;
+    }
+
+    #cards p{
+        font-size: 2vh;
+    }
+
+    #img-prod{
+        width: 90px;
+        height: 120px;
     }
 }
 
@@ -91,4 +182,22 @@ footer p{
         justify-content: center !important;
         text-align: center;
     }
+
+    .hero-h1{
+        font-size: 1.5rem;
+    }
+
+    .card2{
+        margin-left: 0px;
+    }
+
+    #cards h3{
+        font-size: 3vh;
+    }
+
+    #cards p{
+        font-size: 2.5vh;
+    }
+
+    
 }
